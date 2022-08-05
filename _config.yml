@@ -13,6 +13,7 @@ plugins:
   - jekyll-seo-tag
 
 theme: poole-for-jekyll
+remote_theme: poole/poole
 
 # Optimize Jekyll
 exclude:
