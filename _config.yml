@@ -1,10 +1,11 @@
 # Setup
-# title: Poole
-# tagline: The Jekyll Butler
-# url: https://getpoole.com
-paginate: 1
+title: Keto
+tagline: Blog
+description: Keto D. Zhang blogs
+url: https://ketozhang.github.io/blog
 baseurl: ""
 permalink: pretty
+paginate: 3
 
 # Gems
 plugins:
