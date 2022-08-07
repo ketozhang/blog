@@ -1,19 +1,17 @@
 # Setup
-# title: Poole
-# tagline: The Jekyll Butler
-# url: https://getpoole.com
-paginate: 1
+title: Keto
+tagline: Blog
+description: Keto D. Zhang blogs
+url: https://ketozhang.github.io/blog
 baseurl: ""
 permalink: pretty
+paginate: 3
 
 # Gems
 plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
-
-theme: poole-for-jekyll
-remote_theme: poole/poole
 
 # Optimize Jekyll
 exclude:
