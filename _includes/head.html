@@ -4,14 +4,32 @@
 
   <title>
     {% if page.title == "Home" %}
-      {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
+    {{ site.title }}{% if site.tagline %} &middot; {{ site.tagline }}{% endif %}
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+    {{ page.title }} &middot; {{ site.title }}
     {% endif %}
   </title>
 
+  <!-- MathJax -->
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script>
+    MathJax = {
+      loader: { load: ['[tex]/physics'] },
+      tex: {
+        inlineMath: [['\(', '\)']],
+        packages: { '[+]': ['physics'] },
+        macros: {
+          abs: ["{\\left\\lvert{#1}\\right\\rvert}", 1],
+        }
+      }
+    };
+  </script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+
   <link rel="stylesheet" href="{{ 'styles.css' | relative_url }}">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="{{ '/assets/apple-touch-icon-precomposed.png' | relative_url }}">
+  <link rel="apple-touch-icon-precomposed" sizes="144x144"
+    href="{{ '/assets/apple-touch-icon-precomposed.png' | relative_url }}">
   <link rel="shortcut icon" href="{{ '/assets/favicon.ico' | relative_url }}">
   <link rel="alternate" type="application/atom+xml" title="{{ site.title }}" href="{{ 'atom.xml' | relative_url }}">
 
