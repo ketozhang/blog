@@ -3,6 +3,8 @@ title: Python Simple Package Structure
 layout: post
 ---
 
+> **<span style="color: red">DEPRECATED</span>:** I no longer recommend this structure as Python's ecosystem has improved immensely since this was written.
+
 ## Motivation
 
 Before we start a bit of motivation why I needed to write this when great guides like [The Hitchhiker's Guide to Python](http://docs.python-guide.org/en/latest/) and [Minimal Structure](http://python-packaging.readthedocs.io/en/latest/minimal.html) exist.
@@ -83,7 +85,7 @@ from .stats import *
 
 To understand why this is essential to a package see [Understanding \_\_init\_\_.py](#Understanding-__init__.py) otherwise move onto [Testing Your Program](#testing-your-program)
 
-### Understanding \_\_init\_\_.py <!-- TODO: Make collapsible (bootstrap) -->
+### Understanding `__init__.py`
 
 If we must access an actual variable inside a module via `package.module.something` you have probably seen a really simple way such as:
 

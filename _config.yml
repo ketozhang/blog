@@ -2,8 +2,8 @@
 title: Keto
 tagline: Blog
 description: Keto D. Zhang blogs
-url: https://ketozhang.github.io/blog
-baseurl: "blog"
+url: https://ketozhang.github.io
+baseurl: /blog
 permalink: pretty
 paginate: 3
 
