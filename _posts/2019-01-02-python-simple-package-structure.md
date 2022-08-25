@@ -3,7 +3,7 @@ title: Python Simple Package Structure
 layout: post
 ---
 
-> **<span style="color: red">DEPRECATED</span>:** I no longer recommend this structure as Python's ecosystem has improved immensely since this was written.
+> **<span style="color: var(--red)">DEPRECATED</span>:** I no longer recommend this structure as Python's ecosystem has improved immensely since this was written.
 
 ## Motivation
 
