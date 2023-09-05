@@ -1,3 +1,8 @@
+---
+title: "Astronomy for Data Scientist&mdash;Uncertainty"
+layout: post
+---
+
 In data science, you've likely been led through the fundamentals of probability
 and it's math formalism in some probability class. In astronomy, you would
 rarely take such class, and instead are taught along the way with some
