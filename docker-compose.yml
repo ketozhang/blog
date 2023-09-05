@@ -6,4 +6,4 @@ services:
     image: blog
     volumes:
       - ${PWD}:/srv/jekyll
-    command: jekyll serve
+    command: jekyll serve --draft

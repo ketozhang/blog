@@ -1,0 +1,21 @@
+<script src="https://cdn.jsdelivr.net/pyodide/v0.23.4/full/pyodide.js"></script>
+<script type="text/javascript">
+var pyodide;
+async function loadPython() {
+  if (pyodide !== undefined) {
+    return pyodide;
+  }
+
+  console.log("Loading Python...");
+  let _pyodide = await loadPyodide();
+
+  await _pyodide.loadPackage("micropip");
+  const micropip = _pyodide.pyimport("micropip");
+  await micropip.install("matplotlib")
+  await micropip.install("numpy")
+
+  console.log("Python loaded.");
+  pyodide = _pyodide;
+  return pyodide;
+};
+</script>
