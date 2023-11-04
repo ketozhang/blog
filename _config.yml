@@ -12,6 +12,7 @@ plugins:
   - jekyll-gist
   - jekyll-paginate
   - jekyll-seo-tag
+  - jekyll-feed
 
 # Optimize Jekyll
 exclude:
@@ -39,3 +40,6 @@ sass:
 author:
   name: Keto D. Zhang
   url: https://twitter.com/ketozhang
+
+feed:
+  path: /feed.xml
