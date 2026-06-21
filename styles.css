@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600;700;800&display=swap");
+
+/* Typography tuning for Figtree */
+:root {
+	--site-font-sans: "Figtree", "Segoe UI", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	--site-body-size: 1.05rem;
+	--site-body-leading: 1.72;
+	--site-heading-leading: 1.2;
+}
+
+body {
+	font-family: var(--site-font-sans);
+	/* font-size: var(--site-body-size); */
+	/* line-height: var(--site-body-leading); */
+}
